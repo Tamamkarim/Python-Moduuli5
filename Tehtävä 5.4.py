@@ -1,9 +1,9 @@
-kaupungit = []
+LS = []
 
 for i in range(5):
     kaupunki = input(f"Anna {i+1}. kaupungin nimi: ")
-    kaupungit.append(kaupunki)
+    LS.append(kaupunki)
 
 print("\nSyöttämäsi kaupungit ovat:")
-for kaupunki in kaupungit:
+for kaupunki in LS:
     print(kaupunki)
