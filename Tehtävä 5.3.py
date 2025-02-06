@@ -12,5 +12,5 @@ try:
         print(f"{luku} on alkuluku.")
     else:
         print(f"{luku} ei ole alkuluku.")
-except ValueError:
+except:
     print("Virheellinen syöte. Anna kokonaisluku.")
